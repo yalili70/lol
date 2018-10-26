@@ -11,7 +11,6 @@
     "codes-official": "0.0.15",
     "discord.js": "^11.4.2",
     "eris": "^0.9.0",
-    "express": "~3.2.4",
     "ffmpeg-binaries": "^4.0.0",
     "fs": "0.0.1-security",
     "got": "^9.2.2",
