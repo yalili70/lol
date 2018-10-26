@@ -8,9 +8,9 @@ client.on('ready', () => {
 });
 
 client.on('ready', () => {
-var x = client.channels.get("488516893347545099");
+var x = client.channels.get(process.env.ROOM_ID);
 if (x) x.join();
 });
 
 
-client.login("NDg2ODY0ODgyNzU1NTY3NjI3.DrSpkw.FJwtM5sPH4AFVK39fafXyyr3vcM");
+client.login(process.env.BOT_TOKEN);
